@@ -145,3 +145,41 @@ footer {
 .card-img-top:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 640px) {
+    #navbar {
+        padding: 0px 10px;
+    }
+
+    #bioImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #resumeLink {
+        margin-left: 0px;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #aboutMeContent {
+        margin: 14px;
+        text-align: justify;
+    }
+
+    #project1,
+    #giphy,
+    #crystal,
+    #trivia {
+        margin: 15px 0px;
+    }
+
+    #connect2, 
+    #connect1 {
+        margin: auto;
+    }
+
+}

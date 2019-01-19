@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Leigh Tenore Portfolio</title>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap Javascript -->
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
@@ -26,19 +26,18 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg sticky-top navbar-info bg-info shadow-sm" id="navbar">
+    <nav class="navbar navbar-expand-md navbar-info bg-info navHeader sticky-top shadow-sm" id="navbar">
         <a class="navbar-brand" href="index.html" id="name">
             <h1><b>Leigh Tenore</b></h1>
             <p>Full Stack Web Developer</p>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item" id="aboutMeLink">
+                <li class="nav-item active" id="aboutMeLink">
                     <a class="nav-link">About Me </a>
                 </li>
                 <li class="nav-item" id="portfolioLink">
@@ -59,7 +58,7 @@
             <div class="col-md-12" id="bioCard">
                 <div class="card shadow bg-white rounded" id="bioContent">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="about">
                             <img id="bioImg" src="./assets/images/image.JPG">
                             <a href="./assets/resume/Leigh Tenore Technical Resume.pdf" target="_blank" class="card-link" id="resumeLink">View Resume</a>
                         </div>
@@ -152,7 +151,7 @@
 
                                 <div class="card-body">
 
-                                    <div class="row">
+                                    <div class="row" id="content-row">
                                         <div class="card" id="connect1" style="width: 8rem;">
                                             <div class="card-body" id="connect-text">
                                                 <p class="card-text">LinkedIn</p>
