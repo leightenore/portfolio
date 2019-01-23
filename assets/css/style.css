@@ -110,15 +110,23 @@ h1 {
     margin: 20px 70px 70px 0px;
 }
 
-#giphy {
+#liri {
     margin: 20px 0px 70px 0px;
 }
 
+#giphy {
+    margin: 0px 70px 70px 0px;
+}
+
 #crystal {
-    margin: 0px 70px 40px 0px;
+    margin: 0px 0px 70px 0px;
 }
 
 #trivia {
+    margin: 0px 70px 40px 0px;
+}
+
+#hangman {
     margin: 0px 0px 40px 0px;
 }
 
@@ -173,7 +181,8 @@ footer {
     #project1,
     #giphy,
     #crystal,
-    #trivia {
+    #trivia,
+    #liri {
         margin: 15px 0px;
     }
 
