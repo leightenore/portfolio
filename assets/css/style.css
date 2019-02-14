@@ -110,29 +110,33 @@ h1 {
     margin: 20px 70px 70px 0px;
 }
 
-#bamazon {
+#friend-finder {
     margin: 20px 0px 70px 0px;
 }
 
-#liri {
+#bamazon {
     margin: 0px 70px 70px 0px;
+}
+
+#liri {
+    margin: 0px 0px 70px 0px;
 
 }
 
 #giphy {
-    margin: 0px 0px 70px 0px;
-}
-
-#crystal {
     margin: 0px 70px 70px 0px;
 }
 
-#trivia {
+#crystal {
     margin: 0px 0px 70px 0px;
 }
 
-#hangman {
+#trivia {
     margin: 0px 70px 40px 0px;
+}
+
+#hangman {
+    margin: 0px 0px 40px 0px;
 }
 
 #contactCard {
@@ -184,6 +188,7 @@ footer {
     }
 
     #project1,
+    #friend-finder,
     #hangman,
     #bamazon,
     #giphy,
