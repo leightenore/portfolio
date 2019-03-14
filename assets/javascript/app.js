@@ -19,6 +19,24 @@ $("#contactLink").on("click", function(event) {
     $("#bioCard").css("display","none");
 });
 
+$("#aboutMeLink1").on("click", function(event) {
+    $("#portfolioCard").css("display","none");
+    $("#contactCard").css("display","none");
+    $("#bioCard").css("display","block");
+});
+
+$("#portfolioLink1").on("click", function(event) {
+    $("#portfolioCard").css("display","block");
+    $("#contactCard").css("display","none");
+    $("#bioCard").css("display","none");
+});
+
+$("#contactLink1").on("click", function(event) {
+    $("#portfolioCard").css("display","none");
+    $("#contactCard").css("display","block");
+    $("#bioCard").css("display","none");
+});
+
 $("#connect1").on("click", function(event) {
     var url = "https://www.linkedin.com/in/leigh-tenore-55a1b0172/";
     window.open(url, '_blank');

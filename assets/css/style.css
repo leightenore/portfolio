@@ -17,6 +17,14 @@ body {
     padding: 0px 120px;
 }
 
+#collapsibleNav {
+    display: none;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+}
+
 .navbar-brand {
     padding-top: 2rem;
 }
@@ -157,7 +165,25 @@ footer {
 
 @media screen and (max-width: 640px) {
     #navbar {
-        padding: 0px 10px;
+        display: none;
+    }
+
+    #collapsibleNav {
+        display: block;
+    }
+
+    .nav-item {
+        color: white;
+    }
+
+    #collapsibleNav {
+        background-color: rgb(23, 165, 165) !important;
+    }
+
+    #collapsibleNav a{
+        color: white;
+        padding-top: 20px;
+        padding-left: 30px;
     }
 
     #bioImg {
@@ -181,14 +207,11 @@ footer {
     }
 
     #project1,
-    #friend-finder,
+    #project2,
     #hangman,
-    #bamazon,
     #giphy,
     #crystal,
-    #trivia,
-    #liri,
-    #burger {
+    #liri {
         margin: 15px 0px;
     }
 

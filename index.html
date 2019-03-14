@@ -11,14 +11,17 @@
     <!-- Bootstrap Javascript -->
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
@@ -26,15 +29,46 @@
 
 <body>
 
+
+
+    <div class="pos-f-t" id="collapsibleNav">
+
+        <a class="navbar-brand" href="index.html" id="name">
+            <h1><b>Leigh Tenore</b></h1>
+            <p>Full Stack Web Developer</p>
+        </a>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active" id="aboutMeLink1">
+                        <a class="nav-link">About Me </a>
+                    </li>
+                    <li class="nav-item" id="portfolioLink1">
+                        <a class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item" id="contactLink1">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
+
+
     <nav class="navbar navbar-expand-md navbar-info bg-info navHeader sticky-top shadow-sm" id="navbar">
         <a class="navbar-brand" href="index.html" id="name">
             <h1><b>Leigh Tenore</b></h1>
             <p>Full Stack Web Developer</p>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -49,6 +83,10 @@
                 </li>
             </ul>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon light"></span>
+        </button>
     </nav>
 
     <div class="container">
@@ -62,8 +100,8 @@
                         <div class="col-md-4" id="about">
                             <img id="bioImg" src="./assets/images/image.JPG">
                             <!-- class="img-fluid" add this class to the image to make it responsive and see if that makes it so it doesn't go sideways?-->
-                            <a href="./assets/resume/Leigh Tenore Technical Resume.pdf" target="_blank" class="card-link"
-                                id="resumeLink">View Resume</a>
+                            <a href="./assets/resume/Leigh Tenore Technical Resume.pdf" target="_blank"
+                                class="card-link" id="resumeLink">View Resume</a>
                         </div>
 
                         <div class="card-body col-md-8" id="aboutMeContent">
@@ -108,9 +146,12 @@
                             <img src="./assets/images/project1.png" class="card-img-top" id="project1img">
                             <div class="card-body">
                                 <h5 class="card-title">ISS Seeker</h5>
-                                <p class="card-text">An app that allows users to enter a location (city, state or city, country) and receive the location information of the International Space Station along with the times(s) that it will be visible from the user's input.</p>
+                                <p class="card-text">An app that allows users to enter a location (city, state or city,
+                                    country) and receive the location information of the International Space Station
+                                    along with the times(s) that it will be visible from the user's input.</p>
                                 <p><a href="https://leightenore.github.io/iss-seeker/" target="_blank">Visit app</a><br>
-                                    <a href="https://github.com/leightenore/iss-seeker" target="_blank">View code on GitHub</a></p>
+                                    <a href="https://github.com/leightenore/iss-seeker" target="_blank">View code on
+                                        GitHub</a></p>
                             </div>
                         </div>
 
@@ -118,9 +159,13 @@
                             <img src="./assets/images/project2.png" class="card-img-top" id="project2img">
                             <div class="card-body">
                                 <h5 class="card-title">Off the Beaten Path</h5>
-                                <p class="card-text">A full stack web app that allows users to select their travel preferences and then matches them with an "Off the Beaten Path" travel destination.</p>
-                                <p><a href="https://off-the-beaten-path.herokuapp.com/" target="_blank">Visit app</a><br>
-                                    <a href="https://github.com/leightenore/project2" target="_blank">View code on GitHub</a></p>
+                                <p class="card-text">A full stack web app that allows users to select their travel
+                                    preferences and then matches them with an "Off the Beaten Path" travel destination.
+                                </p>
+                                <p><a href="https://off-the-beaten-path.herokuapp.com/" target="_blank">Visit
+                                        app</a><br>
+                                    <a href="https://github.com/leightenore/project2" target="_blank">View code on
+                                        GitHub</a></p>
                             </div>
                         </div>
 
@@ -128,8 +173,10 @@
                             <img src="./assets/images/hangman.png" class="card-img-top" id="hangmanimg">
                             <div class="card-body">
                                 <h5 class="card-title">Game of Thrones Hangman</h5>
-                                <p class="card-text">A hangman game themed to the television show Game of Thrones. Make sure to play with the sound on!</p>
-                                <p><a href="https://leightenore.github.io/got-hangman/" target="_blank">Visit app</a><br>
+                                <p class="card-text">A hangman game themed to the television show Game of Thrones. Make
+                                    sure to play with the sound on!</p>
+                                <p><a href="https://leightenore.github.io/got-hangman/" target="_blank">Visit
+                                        app</a><br>
                                     <a href="https://github.com/leightenore/got-hangman" target="_blank">View code
                                         on GitHub</a></p>
                             </div>
@@ -150,7 +197,11 @@
                             <img src="./assets/images/giphy.png" class="card-img-top" id="giphyimg">
                             <div class="card-body">
                                 <h5 class="card-title">Giphy API</h5>
-                                <p class="card-text">An app that utilizes Giphy's API to display gifs from different TV shows. Users can click a button at the top of the page to see ten gifs from that show. Users can generate their own buttons with the tv show of their choice that will show gifs from that show when clicked. Gifs will display paused and users can click on each gif to animate it.</p>
+                                <p class="card-text">An app that utilizes Giphy's API to display gifs from different TV
+                                    shows. Users can click a button at the top of the page to see ten gifs from that
+                                    show. Users can generate their own buttons with the tv show of their choice that
+                                    will show gifs from that show when clicked. Gifs will display paused and users can
+                                    click on each gif to animate it.</p>
                                 <p><a href="https://leightenore.github.io/Giphy-API/" target="_blank">Visit app</a><br>
                                     <a href="https://github.com/leightenore/Giphy-API" target="_blank">View code on
                                         GitHub</a></p>
@@ -163,7 +214,8 @@
                                 <h5 class="card-title">Cyrstal Collector</h5>
                                 <p class="card-text">This application is game where users click crystals with
                                     hidden values to try and reach a target point goal.</p>
-                                <p><a href="https://leightenore.github.io/unit-4-game/" target="_blank">Visit app</a><br>
+                                <p><a href="https://leightenore.github.io/unit-4-game/" target="_blank">Visit
+                                        app</a><br>
                                     <a href="https://github.com/leightenore/unit-4-game" target="_blank">View code
                                         on GitHub</a></p>
                             </div>
