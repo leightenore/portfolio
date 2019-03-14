@@ -48,7 +48,22 @@ $("#connect2").on("click", function(event) {
 });
 
 $("#project1img").on("click", function(event) {
-    var url = "https://aodem.github.io/Project-One/";
+    var url = "https://leightenore.github.io/iss-seeker/";
+    window.open(url, '_blank');
+});
+
+$("#project2img").on("click", function(event) {
+    var url = "https://off-the-beaten-path.herokuapp.com/";
+    window.open(url, '_blank');
+});
+
+$("#hangmanimg").on("click", function(event) {
+    var url = "https://leightenore.github.io/got-hangman/";
+    window.open(url, '_blank');
+});
+
+$("#liriimg").on("click", function(event) {
+    var url = "https://github.com/leightenore/liri-node-app";
     window.open(url, '_blank');
 });
 
@@ -59,11 +74,6 @@ $("#giphyimg").on("click", function(event) {
 
 $("#crystalimg").on("click", function(event) {
     var url = "https://leightenore.github.io/unit-4-game/";
-    window.open(url, '_blank');
-});
-
-$("#triviaimg").on("click", function(event) {
-    var url = "https://leightenore.github.io/TriviaGame/";
     window.open(url, '_blank');
 });
 
