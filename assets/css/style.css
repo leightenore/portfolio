@@ -188,8 +188,7 @@ footer {
 
     #bioImg {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0px auto 15px auto;
         transform: none;
     }
 
