@@ -90,7 +90,7 @@ h1 {
 #connect2 {
     border: none;
     text-align: center;
-    margin-left: 80px;
+    margin: auto;
 }
 
 #connect1:hover,
@@ -148,6 +148,7 @@ h1 {
 
 #contactContent {
     padding: 50px;
+    padding-bottom: 100px;
 }
 
 footer {
@@ -161,6 +162,13 @@ footer {
 
 .card-img-top:hover {
     cursor: pointer;
+}
+
+#linkedinimg,
+#githubimg {
+    height: 5rem;
+    width: 5rem;
+    margin: auto;
 }
 
 @media screen and (max-width: 640px) {
