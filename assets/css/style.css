@@ -59,7 +59,7 @@ h1 {
 }
 
 #bioContent {
-    padding: 30px 30px 30px 0px;
+        padding: 75px 0px 0px 0px;
 }
 
 #aboutMe {
@@ -139,6 +139,14 @@ h1 {
     margin: 0px 0px 40px 0px;
 }
 
+.technologies {
+    margin: 0px 0px 0px 50px;
+}
+
+.subtech {
+    margin: 0px 0px 0px 100px;
+}
+
 #contactCard {
     margin: auto;
     margin-top: 50px;
@@ -197,7 +205,7 @@ footer {
     #bioImg {
         display: block;
         margin: 0px auto 15px auto;
-        transform: none;
+        /* transform: none; */
     }
 
     #resumeLink {
