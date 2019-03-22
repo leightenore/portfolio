@@ -59,7 +59,7 @@ h1 {
 }
 
 #bioContent {
-        padding: 75px 0px 0px 0px;
+    padding: 30px 30px 30px 0px;
 }
 
 #aboutMe {
@@ -205,7 +205,10 @@ footer {
     #bioImg {
         display: block;
         margin: 0px auto 15px auto;
-        /* transform: none; */
+    }
+
+    #bioContent {
+        padding: 75px 0px 0px 0px;
     }
 
     #resumeLink {
