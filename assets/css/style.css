@@ -114,12 +114,20 @@ h1 {
     padding: 50px;
 }
 
-#project1 {
+#project3 {
     margin: 20px 70px 70px 0px;
 }
 
-#project2 {
+#clickygame {
     margin: 20px 0px 70px 0px;
+}
+
+#project2 {
+    margin: 0px 70px 70px 0px;
+}
+
+#project1 {
+    margin: 0px 0px 70px 0px;
 }
 
 #hangman {
