@@ -1,6 +1,7 @@
 body {
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
+    background-size: 100%;
     background-color: rgb(241, 242, 243)!important;   
 }
 
