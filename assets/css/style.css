@@ -325,6 +325,7 @@ footer {
     }
     .port-img{
         width: 100%;
+        height: auto;
     }
     #back2Top,
     #scrollTopBtn{
