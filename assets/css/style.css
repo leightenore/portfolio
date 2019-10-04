@@ -311,6 +311,10 @@ footer {
    }
 
    @media (max-width: 767px) { 
+    #me{
+        border-radius: 0%;
+        margin: 0px auto;
+    }
     #skills-container{
         grid-column-gap: 15px;
     }
