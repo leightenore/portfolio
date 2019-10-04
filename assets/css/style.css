@@ -173,6 +173,8 @@ body {
 #portfolio-container {
     display: flex;
     margin: 2rem auto 5rem auto;
+    width: fit-content;
+    justify-content: center;
 }
 
 .port-img {
@@ -298,3 +300,40 @@ footer {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
+
+  /* Media Queries */
+
+  @media (min-width: 768px) and (max-width: 991px) { 
+    #skills-container{
+        grid-column-gap: 60px;
+        max-width: 991px;
+    }
+   }
+
+   @media (max-width: 767px) { 
+    #skills-container{
+        grid-column-gap: 15px;
+    }
+    .top-links{
+        margin: 0px 10px;
+    }
+    .icons1{
+        margin: auto;
+    }
+    #linkedin{
+        margin: 0px;
+    }
+    .port-img{
+        width: 100%;
+    }
+    #back2Top,
+    #scrollTopBtn{
+        display: none;
+    }
+    .modal-img{
+        height:120px;
+    }
+    #skills-container{
+        display: block;
+    }
+   }
